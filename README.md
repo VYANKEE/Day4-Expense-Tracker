@@ -1,16 +1,62 @@
-# React + Vite
+# Expense Tracker - Personal Finance Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Day 4: 45 Days of Code Challenge
 
-Currently, two official plugins are available:
+A professional personal finance tracking application designed to help users manage their daily expenses efficiently. This project focuses on a clean user interface, real-time calculations, and local data persistence using React.js and Pure CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Project Name: Expense Tracker
+- Type: Single Page Application (SPA)
+- Goal: To build a functional MVP for personal finance management without external databases.
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Expense Management: Users can add, view, and delete expenses dynamically.
+- Real-time Calculations: Automatically calculates total expenditure and updates the transaction count.
+- Data Persistence: Uses LocalStorage to save user data, ensuring data remains available after page refreshes.
+- Glassmorphism UI: Features a modern, dark-themed user interface designed with pure CSS variables and transparency effects.
+- Responsive Design: Fully optimized for desktop and mobile viewports.
+
+## Technical Stack
+
+- Frontend Library: React.js (Vite)
+- Styling: Pure CSS (CSS3 Variables, Flexbox, Grid)
+- State Management: React Hooks (useState, useEffect)
+- Icons: Lucide React
+
+## Project Structure
+
+- src/components/Hero.jsx: Landing page component with call-to-action.
+- src/components/Features.jsx: Informational section explaining the product value.
+- src/components/Tracker.jsx: Core application logic handling form inputs and lists.
+- src/App.jsx: Main layout manager handling global state and persistence.
+
+## Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. Clone the Repository
+   git clone https://github.com/VYANKEE/Day4-Expense-Tracker.git
+
+2. Navigate to the Directory
+   cd frontend
+
+3. Install Dependencies
+   npm install
+
+4. Start the Application
+   npm run dev
+
+## Learning Outcomes
+
+- Implementation of complex state logic in React.
+- Utilization of the Array.reduce() method for financial data aggregation.
+- Designing a maintainable CSS architecture without utility-first frameworks.
+- Managing component lifecycles for data persistence.
+
+---
+
+Developed by VYANKEE as part of the MERN Stack Challenge.
