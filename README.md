@@ -25,7 +25,7 @@ A professional personal finance tracking application designed to help users mana
 - Frontend Library: React.js (Vite)
 - Styling: Pure CSS (CSS3 Variables, Flexbox, Grid)
 - State Management: React Hooks (useState, useEffect)
-- Icons: Lucide React
+- Icons: Lucide React  
 
 ## Project Structure
 
